@@ -1,0 +1,21 @@
+.weather-card {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% / 5 - 20px);
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .weather-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .weather-info img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
